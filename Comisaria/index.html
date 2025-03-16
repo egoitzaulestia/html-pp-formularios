@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comisaría</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+    <body>
+
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Los ladronzuelos de bicicletas</h1>
+            <form action="procesar.html" method="">
+            <fieldset>
+                <legend>
+                    Denuncia:
+                </legend>
+                
+                <div>
+                <label for="dia" class="label-input">Día:</label>
+                <input type="date" id="dia" name="dia" tabindex="1"><br><br>
+                </div>
+                
+                <div>
+                <label for="hora" class="label-input">Hora:</label>
+                <input type="time" id="hora" name="hora" tabindex="2"><br><br>
+                </div>
+                
+                <div>
+                <label for="color" class="label-input">Color de la bicicleta:</label>
+                <input type="color" id="color" name="color" tabindex="3"><br><br>
+                </div>
+                
+                <div>
+                <label for="rango_precio" class="label-input">Rango de precio:</label>
+                <input type="range" id="rango_precio" name="rango_precio" min="0" max="10000" tabindex="4"><br><br>
+                </div>
+                
+                <div>
+                <label for="tipo_bicicleta" class="label-input">Selecciona tu tipo de bicicleta:</label>
+                <select id="tipo_bicicleta" name="tipo_bicicleta" tabindex="5" title="Elige el tipo de bicicleta">
+                    <option value="" disabled selected>-- Selecciona una opción --</option>
+                    <optgroup label="Paseo">
+                    <option value="senorial">Señorial</option>
+                    <option value="anti_plebeyos">Anti-plebeyos</option>
+                    <option value="por_encima_del_hombro">Por Encima Del Hombro</option>
+                    </optgroup>
+                    <optgroup label="Montaña">
+                    <option value="gamusinos">Gamusinos</option>
+                    <option value="hueleflores_premium">Hueleflores premium</option>
+                    <option value="fango_lover">Fango lover</option>
+                    </optgroup>
+                    <optgroup label="Carreras">
+                    <option value="metroy_medio">Metroy medio</option>
+                    <option value="3_de_la_tarde_fluorescente_edition">3 de la tarde. Fluorescente edition</option>
+                    <option value="grupitors">Grupitors</option>
+                    </optgroup>
+                </select>
+                </div>
+
+                <div>
+                <label for="accesorios" class="label-input">Accesorios: </label>
+                <select id="accesorios" name="accesorios" multiple tabindex="6">
+                    <option value="ruedines">Ruedines</option>
+                    <option value="pegatinas">Pegatinas</option>
+                    <option value="cestita">Cestita</option>
+                    <option value="bomba_aire">Bomba de aire</option>
+                    <option value="timbre">Timbre</option>
+                    <option value="foco">Foco</option>
+                </select>
+                </div>
+
+                <div>
+                <label for="marca" class="label-input">¿Qué marca era?: </label>
+                <input list="marcas" id="marca" name="marca" tabindex="7">
+                <datalist id="marcas">
+                    <option value="Specialized">
+                    <option value="Trek">
+                    <option value="Merida">
+                    <option value="Scott">
+                    <option value="Giant">
+                    <option value="Cube">
+                    <option value="Lapierre">
+                    <option value="Orbea">
+                    <option value="Cannondale">
+                    <option value="BMC">
+                    <option value="Canyon">
+                    <option value="Look">
+                    <option value="Protek">
+                    <option value="Megamo">
+                    <option value="Pinarello">
+                    <option value="Bianchi">
+                    <option value="BH">
+                    <option value="Factor">
+                    <option value="Ghost">
+                    <option value="Cervélo">
+                    <option value="Argon">
+                </datalist>
+                </div>
+
+                <div class="botones">
+                <input type="submit" value="Enviar" tabindex="8">
+                <input type="reset" value="Resetear" tabindex="9">
+                </div>
+
+            </fieldset>
+
+            </form>
+
+        </main>
+    </body>
+</html>
