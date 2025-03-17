@@ -38,7 +38,7 @@ input {
     margin-bottom: 0.5em;
 }
 input[type="submit"] {
-    background-color: #333;
+    background-color: #007BFF;
     color: white;
     padding: 0.5em;
     border: none;
@@ -46,12 +46,13 @@ input[type="submit"] {
     border-radius: 0.5em;
     margin-top: 1em;
     margin-left: 0.15em;
+    width: 100px;
 }
 input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #3f71a7;
 }
 input[type="reset"] {
-    background-color: #333;
+    background-color: #007BFF;
     color: white;
     padding: 0.5em;
     border: none;
@@ -59,44 +60,36 @@ input[type="reset"] {
     border-radius: 0.5em;
     margin-top: 1em;
     margin-left: 0.15em;
+    width: 100px;
 }
 input[type="reset"]:hover {
-    background-color: #555;
+    background-color: #3f71a7;
 }
 
-input[type="text"] {
+input[type="date"] {
     width: 200px;
     padding: 0.5em;
     border: 1px solid #333;
     border-radius: 0.5em;
 }
-textarea {
-    width: 490px;
-    padding: 0.5em;
-    border: 1px solid #333;
-    border-radius: 0.5em;
-}
-input[type="number"] {
+input[type="time"] {
     width: 200px;
     padding: 0.5em;
     border: 1px solid #333;
     border-radius: 0.5em;
 }
-input[type="email"] {
+input[type="color"] {
+    width: 89px;
+    /* padding: 0.5em; */
+    border: 1px solid #333;
+    border-radius: 0.5em;
+}
+input[type="range"] {
     width: 200px;
     padding: 0.5em;
     border: 1px solid #333;
     border-radius: 0.5em;
 }
-input[type="tel"] {
-    width: 200px;
-    padding: 0.5em;
-    border: 1px solid #333;
-    border-radius: 0.5em;
-}
-input[type="radio"] {
-    margin-right: 0.5em;
-} 
 
 select {
     font-size: 16px;
@@ -145,17 +138,9 @@ input[list] {
     display: block;
     margin-bottom: 0.5em;
 }
-.fieldset-sexo {
-    width: 490px;
-    border-radius: 0.5em;
-    padding: 0.5em;
-}
 .botones {
     margin-top: 1em;
     margin-left: 0.15em;
 }
-.checkbox {
-    padding-top: 1.5em;
-    margin-right: 0.5em;
-}
+
 

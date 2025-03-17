@@ -38,7 +38,7 @@ input {
     margin-bottom: 0.5em;
 }
 input[type="submit"] {
-    background-color: #333;
+    background-color: #007BFF;
     color: white;
     padding: 0.5em;
     border: none;
@@ -46,12 +46,13 @@ input[type="submit"] {
     border-radius: 0.5em;
     margin-top: 1em;
     margin-left: 0.15em;
+    width: 100px;
 }
 input[type="submit"]:hover {
-    background-color: #555;
+    background-color: #3f71a7;
 }
 input[type="reset"] {
-    background-color: #333;
+    background-color: #007BFF;
     color: white;
     padding: 0.5em;
     border: none;
@@ -59,9 +60,10 @@ input[type="reset"] {
     border-radius: 0.5em;
     margin-top: 1em;
     margin-left: 0.15em;
+    width: 100px;
 }
 input[type="reset"]:hover {
-    background-color: #555;
+    background-color: #3f71a7;
 }
 
 input[type="text"] {
