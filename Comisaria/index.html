@@ -37,13 +37,16 @@
                 </div>
                 
                 <div>
-                <label for="color" class="label-input">Color de la bicicleta:</label>
-                <input type="color" id="color" name="color" tabindex="3"><br><br>
+                    <label for="color" class="label-input">Color de la bicicleta:</label>
+                    <input type="color" id="color" name="color" tabindex="3" oninput="document.getElementById('color_valor').innerText = this.value">
+                    <span id="color_valor">#000000</span><br><br>
+
                 </div>
                 
                 <div>
-                <label for="rango_precio" class="label-input">Rango de precio:</label>
-                <input type="range" id="rango_precio" name="rango_precio" min="0" max="10000" tabindex="4"><br><br>
+                    <label for="rango_precio" class="label-input">Rango de precio:</label>
+                    <input type="range" id="rango_precio" name="rango_precio" min="0" max="10000" tabindex="4" oninput="document.getElementById('precio_valor').innerText = this.value">
+                    <span id="precio_valor">5000</span><br><br>
                 </div>
                 
                 <div>
